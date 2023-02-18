@@ -1,0 +1,116 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+#blog-btn{
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 10px;
+    background-color: #1090db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#blog-btn:hover{
+    background-color: #015f96;
+}
+.interactive{
+    font-size: 45px;
+}
+.geo-p{
+    font-size: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1091db28;
+    padding: 0 50px;
+    margin: 25px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    display: flex;
+    gap: 16px;
+}
+.six-box{
+    
+}
+.three-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 16px 0;
+
+}
+.cards{
+    width: 310px;
+    max-width: 437px;
+    max-height: 563px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    border-radius: 10px;
+}
+.card-internal-d{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.third-img{
+    max-width: 290px;
+}
+.mini-input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.calculate-btn{
+    width: 250px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #1090db;
+}
+.area-calculate{
+    /* max-width: 437px;
+    min-width: 300px; */
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.24);
+    min-height: 500px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 16px 0;
+    
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .six-box, .three-box, .header-class, .main-class{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .header-class{
+        padding: 20px;
+        margin: 10px 10px 20px;
+    }
+    .cards{
+        margin: 15px;
+        padding: 10px;
+    }
+    .area-calculate{
+        text-align: center;
+    }
+  }
